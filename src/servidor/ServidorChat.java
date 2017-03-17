@@ -157,7 +157,7 @@ public class ServidorChat extends JFrame{
  
         try {
             
-            servidor = new ServerSocket(11111, 100); 
+            servidor = new ServerSocket(11111, 1000); 
             main.mostrarMensaje("Esperando Cliente ...");
 
             /**
